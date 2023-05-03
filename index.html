@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lesson 03 Creating DOM Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Lesson 3 Creating DOM Elements</h1>
+    <div id="appendid">
+        <h2>Example 1:</h2>
+        <h2>Adding an Element to the DOM Tree Using the "appendChild" Method</h2>
+        <p>I'm an existing paragraph</p>
+        <button onClick="append()">Click to add a new paragraph</button>
+    </div>
+
+    <div>
+        <h2>Example 2: </h2>
+        <h2>Adding a List Item to the List Using the "insertBefore" Method</h2>
+        <ul id="newlist">
+            <li>List Item 1</li>
+            <li>List Item 2 </li>
+            <li>List Item 3</li>
+        </ul>
+        <h2>Click the button to add a new item to the list!</h2>
+        <button onClick="insert()">Click Here!</button>
+    </div>
+
+    <div>
+        <h2>Example 3</h2>
+        <h2>Replace an Element with a Created One</h2>
+        <ul id="myList">
+            <li id="firstItem">List Item 1: Coffee</li>
+            <li id="secondItem">List Item 2: Latte</li>
+            <li id="thirdItem">List Item 3: Mocha</li>
+        </ul>
+
+        <p>Click the Try It! button to replace the first item in the list.</p>
+
+        <button onclick="replace()">Try it</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
